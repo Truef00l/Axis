@@ -1,0 +1,54 @@
+div {
+    background-color: rgb(237, 188, 128);
+    width: 1000px;
+    height: 500px;
+    padding: 100px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px dotted blanchedalmond;
+}
+table, th, td, tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+#BeeMovie{
+    color:black; 
+    text-align: center;
+}
+.HereWeGo{
+    color:rebeccapurple;
+    text-align: end;
+}
+button{
+    width: 300px;
+    height: 100px;
+    font-size: 24px;
+    background-color: palegreen;
+}
+button:hover{
+    background-color: blueviolet;
+}
+/* Allows for the change in width of screen to change elements about the web design (e.g. if used on phone or something) */
+@media (min-width: 600px){
+    body{
+        background-color: black;
+    }
+}
+@media (max-width: 599px){
+    body{
+        background-color: white;
+    }
+}
+#FlexboxDemo{
+    display: flex;
+    flex-wrap: wrap;
+}
+#FlexboxDemo > div {
+    background-color: darkolivegreen;
+    font-size: large;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+}
